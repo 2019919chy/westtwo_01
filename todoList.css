@@ -88,13 +88,13 @@ div{
     align-items: center;
 }
 
-/* 按钮 */
+/* 按钮
 .btn{
     border-radius: 10px;
     background-color: rgb(216, 240, 250);
     border: 1px solid rgb(157, 208, 228);
     padding: 10px 15px;
-}
+} */
 
 a{
     list-style: none;
