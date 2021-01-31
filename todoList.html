@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>名侦探柯南todoList</title>
+    <link rel="stylesheet" href="todoList.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body>
+    <div class="list" id="list">
+        <div class="list01">
+            <div class="input1"><strong>任务清单:</strong><input type="text" id="list_input1" v-model="a"></div>
+            <div class="input1_botton"><a id="btn" class="btn" href="javascript:;"v-on:click="test01">添加任务</a></div>
+        </div>
+        <div class="list02">
+            <div class="input2"><strong>修改任务:<strong><input type="text" id="list_input2" value="任务"></div>
+            <div class="program">
+                <ul class="collection" id="myList">
+                    <li v-for="item in todos" :key="item.id">
+                        {{item.name}}{{item.message}}
+                        123
+                        
+                        <a href="#">del</a>
+
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <script>
+        var vm = new Vue({
+            el:"#list",
+            data:{
+                todos:[
+                   
+                ]
+            },
+            methods : {
+                test01(){
+                    let obj = {
+                        id: "test3",
+                        name: "任务:",
+                        message: this.a
+                    }
+                    this.todos.push(obj)
+                }
+            },
+        },
+        )
+        
+    </script>
+</body>
+</html>

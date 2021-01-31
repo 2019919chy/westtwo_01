@@ -1,0 +1,107 @@
+input{
+    color:#999;
+}
+div{
+    color:black;
+    text-decoration: none;
+}
+.list{
+    height:800px;
+    width:900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.list01{
+    height:200px;
+    width:900px;
+    float:left;
+    border: 1px solid rgb(15, 133, 180);
+    border-radius:20px;
+    position: relative;
+}
+.input1{
+    font-size: 40px;
+    width: 700px;
+    font-size: 24px;
+    margin-top: 25px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.input1 input{
+    width: 500px;
+    height: 35px;
+    margin-left: 27px;
+    border: 1px solid rgb(157, 208, 228);
+    border-radius: 10px;
+}
+.input1_botton{
+    padding-left: 700px;
+    padding-top: 25px;
+}
+.list02{
+    padding-bottom: 50px;
+    width:900px;
+    margin-top: 40px;
+    float:left;
+    border: 1px solid rgb(15, 133, 180);
+    border-radius:20px;
+    position: relative;
+}
+.input2{
+    font-size: 40px;
+    width: 700px;
+    font-size: 24px;
+    margin-top: 25px;
+    padding-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 30px;
+}
+.input2 input{
+    width: 500px;
+    height: 35px;
+    margin-left: 27px;
+    border: 1px solid rgb(157, 208, 228);
+    border-radius: 10px;
+}
+.collection_item{
+    color:black;
+    list-style: none;
+}
+.collection_item1{
+    color:black;
+    text-decoration: none;
+}
+.input2_botton{
+    padding-left: 700px;
+    padding-top: 25px;
+}
+.collection{
+    display: flex;
+    flex-direction: column;
+}
+.collection li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    align-items: center;
+}
+
+/* 按钮 */
+.btn{
+    border-radius: 10px;
+    background-color: rgb(216, 240, 250);
+    border: 1px solid rgb(157, 208, 228);
+    padding: 10px 15px;
+}
+
+a{
+    list-style: none;
+    text-decoration: none;
+    color:black;
+    border-radius: 10px;
+    background-color: rgb(216, 240, 250);
+    border: 1px solid rgb(157, 208, 228);
+    padding: 10px 15px;
+}
