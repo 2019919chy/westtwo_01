@@ -19,8 +19,8 @@
                 <ul class="collection" id="myList">
                     <li v-for="item in todos" :key="item.id">
                         {{item.name}}{{item.message}}
-                        <a id="btn1" class="btn01" href="javascript:;"v-on:click="test04">删除</a>
-                        <a id="btn1" class="btn02" href="javascript:;"v-on:click="test05">修改</a>
+                        <a id="btn1" class="btn01">删除任务</a>
+                        <a id="btn1" class="btn02">修改任务</a>
                     </li>
                 </ul>
             </div>
@@ -43,34 +43,10 @@
                     }
                     this.todos.push(obj)
                 },
-                test04(){
-                    dlt(this)
-                },
+                
             },
-   
-            // methods :{
-            //     test05()
-            //     {
-            //         let temp = node.parentNode.parentNode.firstChild
-            //         let text =  temp.textContent
-            //         list_input2.value = text;
-            //         list_input2.focus()
-            //         list_input2.onkeydown = function(ev)
-            //         {
-            //             let num = ev.keyCode;
-            //             if(num === 13)
-            //             {
-            //                 temp.textContent = list_input2.value
-            //                 list_input2.blur(  )
-            //             }
-            //         } 
-            //     }
-            // },
         },
         )
-        function dlt(node){
-            node.parentNode.parentNode.remove()
-        }
     </script>
 </body>
 </html>
